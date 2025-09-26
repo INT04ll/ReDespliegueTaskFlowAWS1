@@ -18,6 +18,8 @@ import { CrearComponent } from './components/crear/crear.component';
 import { EditarComponent } from './components/editar/editar.component';
 import { LoginComponent } from './views/login/login.component';
 import { NewPasswordComponent } from './views/new-password/new-password.component';
+import { ThemeToggleComponent } from './components/theme-toggle/theme-toggle.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { NewPasswordComponent } from './views/new-password/new-password.componen
     TareaCardComponent,
     InicioComponent,
     LoginComponent,
-    NewPasswordComponent
+    NewPasswordComponent,
+    ThemeToggleComponent
   ],
   imports: [
     BrowserModule,
